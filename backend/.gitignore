@@ -1,3 +1,11 @@
+# Ignore build and dependency directories
+dist
 node_modules
-.env
+
+# Ignore environment variable files
+.env.local
+
+# Ignore MacOS system files
+.DS_Store
+
 .hintrc
